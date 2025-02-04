@@ -1,15 +1,16 @@
-import Book from './Book';
-import booksData from './booksData';
+import Header from './Header';
+import MainContent from './MainContent';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Book List</h1>
-      <div className="book-list">
-        {booksData.map(book => <Book key={book.id} book={book} />)}
-      </div>
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
+
 
 export default App;

@@ -1,0 +1,7 @@
+{
+  "homepage": "https://yogesh249.github.io/week4",
+  "name": "week4",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
